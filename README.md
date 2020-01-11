@@ -9,7 +9,7 @@ It uses [Three.js](https://threejs.org/) for drawing and currently supports a fo
 
 ### Run the example
 
-You can see the examples at http://davidpiegza.github.io/Graph-Visualization/index.html or:
+You can see the examples at http://goooooodman.github.io/Graph-Visualization/index.html or:
 
 1. Clone or download the project
 2. Open the index.html in a WebGL-compatible browser
@@ -26,7 +26,7 @@ The project consists of
 
 ### Graph Structure
 
-This is implemented in [src/graph.js](https://github.com/davidpiegza/Graph-Visualization/blob/master/src/graph.js).
+This is implemented in [src/graph.js](https://github.com/goooooodman/Graph-Visualization/blob/master/src/graph.js).
 
 Usage:
 
@@ -53,7 +53,7 @@ A node has the properties
   - `position`, Object for x, y, z position, default is {}
   - `data`, Object with further properties, e.g. properties for a graph layout
 
-For more details have a look at the [source code](https://github.com/davidpiegza/Graph-Visualization/blob/master/src/graph.js).
+For more details have a look at the [source code](https://github.com/goooooodman/Graph-Visualization/blob/master/src/graph.js).
 
 ### Graph Layout
 
@@ -78,14 +78,14 @@ The graph layout gets the created graph and calculates new positions for the nod
 
 The graph layout may extend the nodes and edges with custom properties in the data object.
 
-See [force-directed-layout.js](https://github.com/davidpiegza/Graph-Visualization/blob/master/src/layouts/force-directed-layout.js) for example usage.
+See [force-directed-layout.js](https://github.com/goooooodman/Graph-Visualization/blob/master/src/layouts/force-directed-layout.js) for example usage.
 
 
 ## Contribution
 
-It would be great to have more examples of force-directed graphs or other 3d graph layouts. To add a new example, just copy one of the existing [examples](https://github.com/davidpiegza/Graph-Visualization/blob/master/examples), add a new `Drawing` object and update the `index.html`.
+It would be great to have more examples of force-directed graphs or other 3d graph layouts. To add a new example, just copy one of the existing [examples](https://github.com/goooooodman/Graph-Visualization/blob/master/examples), add a new `Drawing` object and update the `index.html`.
 
- ***Check out the [open issues](https://github.com/davidpiegza/Graph-Visualization/issues) for a specific task***.
+ ***Check out the [open issues](https://github.com/goooooodman/Graph-Visualization/issues) for a specific task***.
 
 This project uses [Grunt](http://gruntjs.com/) to run several tasks in development. You should have `npm` and `grunt` installed. To install `grunt` run
 
@@ -101,4 +101,4 @@ If you added some changes, run `grunt` to check the code.
 
 ## Changelog
 
-See [releases](https://github.com/davidpiegza/Graph-Visualization/releases).
+See [releases](https://github.com/goooooodman/Graph-Visualization/releases).
